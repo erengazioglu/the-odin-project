@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        input {
+            border: none;
+        }
+        #google-search {
+            position: fixed;
+            top: 50%;
+            width: 500px;
+            height: 50px;
+            background-color: white;
+            border: 1px solid rgba(30,30,30,0.2);
+            border-radius: 25px;
+            display: flex;
+        }
+        #google-search:focus, #google-search:hover {
+            box-shadow: 0 1px 6px rgba(30, 30, 30, 0.25);
+            border-color: rgba(30, 30, 30, 0)
+        }
+    </style>
+    <main>
+        <header>
+            <div>
+                <p>Gmail</p>
+                <p>Images</p>
+            </div>
+        </header>
+        <form id="google-search">
+            <input type="text">
+        </form>
+        <footer>
+            <div>
+                <p>About</p>
+                <p>Advertising</p>
+                <p>Business</p>
+                <p>How Search works</p>
+            </div>
+        </footer>
+    </main>
+</html>

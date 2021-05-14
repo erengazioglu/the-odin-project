@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML page for JS test</title>
+</head>
+<body>
+    <script>
+        // function add7(a) {
+        //     return a + 7
+        // }
+        // function multiply(a, b) {
+        //     return a * b
+        // }
+        // function capitalize(str) {
+        //     return str.charAt(0).toUpperCase() + str.substr(1, str.length - 1).toLowerCase()
+        // }
+        // function lastLetter(str) {
+        //     return str.charAt(str.length - 1)
+        // }
+
+        // console.log(capitalize("Pompy Productions"), lastLetter("Pompy"))
+
+        function checkDiv(num, div) {
+            if (num % div == 0) {
+                return true
+            };
+            return false
+        }
+        for (let i = 1; i <= 15; ++i) {
+            if (checkDiv(i, 15)) {
+                console.log("FizzBuzz");
+            } else if (checkDiv(i, 5)) {
+                console.log("Buzz");
+            } else if (checkDiv(i, 3)) {
+                console.log("Fizz");
+           } else (console.log(i))
+        }
+
+    </script>
+</body>
+</html>
